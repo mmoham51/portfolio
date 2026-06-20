@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Mohamed Mohamed Portfolio Website
+    Replace placeholder links and contact information before publishing.
+  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio website for Mohamed Mohamed, a recent Computer Science graduate from George Mason University seeking Software Engineer and Junior Software Developer roles." />
+  <title>Mohamed Mohamed | Software Engineer Portfolio</title>
+
+  <!-- Open Graph preview for LinkedIn/GitHub sharing -->
+  <meta property="og:title" content="Mohamed Mohamed | Software Engineer Portfolio" />
+  <meta property="og:description" content="Recent Computer Science graduate focused on full-stack development, systems programming, security fundamentals, and AI/ML projects." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" data-header>
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="nav__brand" href="#home" aria-label="Mohamed Mohamed home">
+        <span class="brand-mark">MM</span>
+        <span>Mohamed Mohamed</span>
+      </a>
+
+      <button class="nav__toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav__menu" data-nav-menu>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#skills" class="nav__link">Skills</a>
+        <a href="#projects" class="nav__link">Projects</a>
+        <a href="#education" class="nav__link">Education</a>
+        <a href="#resume" class="nav__link">Resume</a>
+        <a href="#contact" class="nav__link nav__link--button">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Recent Computer Science Graduate • George Mason University</p>
+          <h1>Software engineer focused on building practical, reliable applications.</h1>
+          <p class="hero__intro">
+            I am Mohamed Mohamed, a recent B.S. Computer Science graduate targeting
+            Software Engineer and Junior Software Developer roles. My portfolio centers on
+            full-stack development, backend fundamentals, systems programming, security awareness,
+            and AI/ML coursework.
+          </p>
+
+          <div class="hero__actions" aria-label="Primary calls to action">
+            <a class="button button--primary" href="assets/Mohamed-Mohamed-Resume.pdf" target="_blank" rel="noreferrer">
+              View Resume
+            </a>
+            <a class="button button--secondary" href="https://github.com/YOUR_USERNAME" target="_blank" rel="noreferrer">
+              View GitHub
+            </a>
+            <a class="button button--ghost" href="#contact">Contact Me</a>
+          </div>
+
+          <ul class="hero__meta" aria-label="Portfolio highlights">
+            <li>Full-stack Flask projects</li>
+            <li>Java, Python, C, JavaScript</li>
+            <li>Algorithms, systems, security, AI fundamentals</li>
+          </ul>
+        </div>
+
+        <aside class="hero__panel" aria-label="Candidate snapshot">
+          <div class="availability-card">
+            <p class="status-dot"><span></span> Open to 2026 entry-level roles</p>
+            <h2>Software Engineer / Junior Developer</h2>
+            <p>
+              Project-driven developer with a CS foundation, hands-on backend experience,
+              and comfort working across application, system, and security concepts.
+            </p>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <span class="stat-card__label">Core stack</span>
+              <strong>Python • Java • C</strong>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__label">Web focus</span>
+              <strong>Flask • SQLAlchemy • APIs</strong>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__label">Strength</span>
+              <strong>Learning quickly through projects</strong>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section section--muted" id="about">
+      <div class="container split">
+        <div>
+          <p class="section-label">About</p>
+          <h2>Entry-level developer with practical project experience.</h2>
+        </div>
+        <div class="content-stack">
+          <p>
+            I recently completed my B.S. in Computer Science at George Mason University.
+            While I do not yet have formal software engineering work experience, I have built
+            projects that reflect the work expected from junior developers: designing data models,
+            implementing routes, debugging application behavior, working with APIs, reasoning about
+            algorithms, and writing code that is easier to understand and maintain.
+          </p>
+          <p>
+            My strongest work combines backend development, CS fundamentals, and problem-solving.
+            I am especially interested in roles where I can contribute to real features, strengthen
+            my engineering judgment, and grow through code reviews, production practices, and team collaboration.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Technical Skills</p>
+          <h2>Skills grouped for quick recruiter scanning.</h2>
+          <p>
+            The goal is not to list every tool. The goal is to show the technologies and concepts
+            I can connect to real coursework and project work.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Languages</h3>
+            <ul class="tag-list">
+              <li>Java</li>
+              <li>Python</li>
+              <li>C</li>
+              <li>JavaScript</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Web & Backend</h3>
+            <ul class="tag-list">
+              <li>Flask</li>
+              <li>SQLAlchemy</li>
+              <li>SQLite</li>
+              <li>REST APIs</li>
+              <li>Authentication</li>
+              <li>Session handling</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Frontend</h3>
+            <ul class="tag-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Responsive layouts</li>
+              <li>JavaScript DOM</li>
+              <li>Accessible UI basics</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Computer Science</h3>
+            <ul class="tag-list">
+              <li>Data structures</li>
+              <li>Algorithms</li>
+              <li>Object-oriented programming</li>
+              <li>Debugging</li>
+              <li>Problem decomposition</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Systems & Tools</h3>
+            <ul class="tag-list">
+              <li>Git/GitHub</li>
+              <li>Linux/Unix</li>
+              <li>Command line</li>
+              <li>C debugging</li>
+              <li>Process management</li>
+              <li>Memory concepts</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Security & AI Foundations</h3>
+            <ul class="tag-list">
+              <li>Cybersecurity fundamentals</li>
+              <li>Threat/risk concepts</li>
+              <li>Secure coding awareness</li>
+              <li>Machine learning fundamentals</li>
+              <li>NLP fundamentals</li>
+              <li>Model evaluation</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="section section--muted" id="projects">
+      <div class="container">
+        <div class="section-heading section-heading--wide">
+          <p class="section-label">Featured Projects</p>
+          <h2>Project work that shows how I think, build, and debug.</h2>
+          <p>
+            Each project card is written to answer what employers usually want to know:
+            what problem the project addressed, what I built, what technologies I used,
+            and what the work demonstrates about my engineering ability.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-card--featured">
+            <div class="project-card__top">
+              <div>
+                <p class="project-card__type">Full-Stack Web Application</p>
+                <h3>OutfitPartPicker</h3>
+              </div>
+              <a href="https://github.com/mmoham51/OutfitPartPicker" target="_blank" rel="noreferrer" class="text-link">
+                View Code
+              </a>
+            </div>
+
+            <div class="project-section">
+              <h4>Problem</h4>
+              <p>
+                Users need a simple way to search clothing items, organize them into outfits,
+                and publish outfit posts from one application flow.
+              </p>
+            </div>
+
+            <div class="project-section">
+              <h4>What I built</h4>
+              <p>
+                A full-stack Flask application where users can register, log in, search clothing items,
+                build outfits, and create public outfit posts backed by database models and server-side routes.
+              </p>
+            </div>
+
+            <div class="project-section">
+              <h4>Technical highlights</h4>
+              <ul>
+                <li>Implemented backend routes for registration, login, logout, outfit creation, and API-backed search.</li>
+                <li>Designed SQLAlchemy models for users, outfits, pieces, and posts using SQLite for persistence.</li>
+                <li>Handled authentication, password hashing, user sessions, and protected page access.</li>
+                <li>Integrated an external clothing search API and normalized selected item data before saving.</li>
+              </ul>
+            </div>
+
+            <div class="project-section">
+              <h4>Technologies</h4>
+              <ul class="tag-list tag-list--compact">
+                <li>Python</li>
+                <li>Flask</li>
+                <li>SQLAlchemy</li>
+                <li>SQLite</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>API Integration</li>
+              </ul>
+            </div>
+
+            <p class="employer-note">
+              Demonstrates to employers: backend fundamentals, database modeling, authentication,
+              API integration, debugging, and the ability to connect frontend behavior to server-side logic.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__top">
+              <div>
+                <p class="project-card__type">AI / Machine Learning</p>
+                <h3>AI Code Generation Model</h3>
+              </div>
+              <a href="https://github.com/mmoham51/AI-Code-Generation-Model" target="_blank" rel="noreferrer" class="text-link">
+                View Code
+              </a>
+            </div>
+
+            <div class="project-section">
+              <h4>Problem</h4>
+              <p>
+                Code generation requires translating natural language intent into structured programming output
+                while evaluating whether generated code is useful, correct, and readable.
+              </p>
+            </div>
+
+            <div class="project-section">
+              <h4>What I built</h4>
+              <p>
+                An AI class project focused on code generation concepts, including model experimentation,
+                natural language processing, evaluation, and understanding how AI-assisted development tools
+                can support programming workflows.
+              </p>
+            </div>
+
+            <div class="project-section">
+              <h4>Technical highlights</h4>
+              <ul>
+                <li>Worked with machine learning and NLP concepts applied to source-code generation.</li>
+                <li>Experimented with model behavior and evaluated generated outputs for usefulness and quality.</li>
+                <li>Built stronger intuition for how AI tools affect developer productivity and code review judgment.</li>
+              </ul>
+            </div>
+
+            <div class="project-section">
+              <h4>Technologies</h4>
+              <ul class="tag-list tag-list--compact">
+                <li>Python</li>
+                <li>Machine Learning</li>
+                <li>NLP</li>
+                <li>Model Evaluation</li>
+                <li>AI-Assisted Development</li>
+              </ul>
+            </div>
+
+            <p class="employer-note">
+              Demonstrates to employers: comfort with AI/ML fundamentals, experimentation, evaluation,
+              and the ability to reason about AI tools instead of treating them as magic.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__top">
+              <div>
+                <p class="project-card__type">Cybersecurity Practice</p>
+                <h3>Security Labs</h3>
+              </div>
+              <a href="https://github.com/mmoham51/Security-Labs" target="_blank" rel="noreferrer" class="text-link">
+                View Code
+              </a>
+            </div>
+
+            <div class="project-section">
+              <h4>Problem</h4>
+              <p>
+                Developers need to understand how software can fail, how vulnerabilities are introduced,
+                and how risk changes engineering decisions.
+              </p>
+            </div>
+
+            <div class="project-section">
+              <h4>What I built / practiced</h4>
+              <p>
+                Cybersecurity-focused lab work involving vulnerability analysis, threat and risk concepts,
+                command-line practice, and secure coding awareness.
+              </p>
+            </div>
+
+            <div class="project-section">
+              <h4>Technical highlights</h4>
+              <ul>
+                <li>Practiced identifying security weaknesses and reasoning about potential impact.</li>
+                <li>Used Linux/Unix command-line workflows for hands-on technical investigation.</li>
+                <li>Connected security concepts to everyday developer responsibilities such as input handling and safer implementation choices.</li>
+              </ul>
+            </div>
+
+            <div class="project-section">
+              <h4>Technologies</h4>
+              <ul class="tag-list tag-list--compact">
+                <li>Cybersecurity</li>
+                <li>Linux/Unix</li>
+                <li>Command Line</li>
+                <li>Threat/Risk Analysis</li>
+                <li>Secure Coding</li>
+              </ul>
+            </div>
+
+            <p class="employer-note">
+              Demonstrates to employers: security awareness, disciplined investigation, comfort with Unix tools,
+              and the ability to think beyond “does it run?” toward “is it safe?”
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__top">
+              <div>
+                <p class="project-card__type">Systems / C Programming</p>
+                <h3>Systems Programming Projects</h3>
+              </div>
+              <a href="https://github.com/mmoham51/Systems-Programming-Projects" target="_blank" rel="noreferrer" class="text-link">
+                View Code
+              </a>
+            </div>
+
+            <div class="project-section">
+              <h4>Problem</h4>
+              <p>
+                Lower-level programming requires careful handling of memory, process behavior, command-line inputs,
+                and debugging details that higher-level frameworks often hide.
+              </p>
+            </div>
+
+            <div class="project-section">
+              <h4>What I built</h4>
+              <p>
+                C and Linux-based systems projects such as shell, scheduler, and memory-related programming assignments
+                that strengthened my understanding of how programs interact with the operating system.
+              </p>
+            </div>
+
+            <div class="project-section">
+              <h4>Technical highlights</h4>
+              <ul>
+                <li>Practiced C programming with attention to pointers, memory behavior, and compile-time errors.</li>
+                <li>Worked with Linux process and command-line concepts relevant to shells and schedulers.</li>
+                <li>Used debugging habits to trace defects and reason about program state.</li>
+              </ul>
+            </div>
+
+            <div class="project-section">
+              <h4>Technologies</h4>
+              <ul class="tag-list tag-list--compact">
+                <li>C</li>
+                <li>Linux</li>
+                <li>Unix</li>
+                <li>Processes</li>
+                <li>Memory</li>
+                <li>Debugging</li>
+              </ul>
+            </div>
+
+            <p class="employer-note">
+              Demonstrates to employers: CS depth, systems thinking, debugging discipline,
+              and willingness to work below the framework level when needed.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section" id="education">
+      <div class="container split">
+        <div>
+          <p class="section-label">Education</p>
+          <h2>George Mason University</h2>
+        </div>
+
+        <div class="education-card">
+          <p class="education-card__degree">B.S. in Computer Science</p>
+          <p class="education-card__school">George Mason University</p>
+          <p>
+            Coursework and project experience across software engineering, algorithms,
+            data structures, systems programming, AI/ML fundamentals, and cybersecurity concepts.
+          </p>
+
+          <div class="coursework">
+            <span>Data Structures</span>
+            <span>Algorithms</span>
+            <span>Software Engineering</span>
+            <span>Systems Programming</span>
+            <span>Artificial Intelligence</span>
+            <span>Cybersecurity Fundamentals</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section class="section section--muted" id="resume">
+      <div class="container resume-panel">
+        <div>
+          <p class="section-label">Resume</p>
+          <h2>Want the one-page version?</h2>
+          <p>
+            My resume summarizes the same core message as this site: CS foundation, practical projects,
+            backend and systems exposure, and readiness for junior software engineering work.
+          </p>
+        </div>
+
+        <div class="resume-panel__actions">
+          <a class="button button--primary" href="assets/Mohamed-Mohamed-Resume.pdf" target="_blank" rel="noreferrer">
+            View Resume PDF
+          </a>
+          <a class="button button--secondary" href="https://www.linkedin.com/in/mohamedgmohamed" target="_blank" rel="noreferrer">
+            View LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-label">Contact</p>
+          <h2>Let’s connect.</h2>
+          <p>
+            I am open to Software Engineer, Junior Software Developer, backend, full-stack,
+            and entry-level technical roles where I can contribute, learn quickly, and improve through real engineering work.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <a class="contact-row" href="mailto:mohamedgmohamed300@gmail.com">
+            <span>Email</span>
+            <strong>mohamedgmohamed300@gmail.com</strong>
+          </a>
+          <a class="contact-row" href="https://github.com/mmoham51" target="_blank" rel="noreferrer">
+            <span>GitHub</span>
+            <strong>github.com/mmoham51</strong>
+          </a>
+          <a class="contact-row" href="https://www.linkedin.com/in/mohamedgmohamed/" target="_blank" rel="noreferrer">
+            <span>LinkedIn</span>
+            <strong>linkedin.com/in/mohamedgmohamed</strong>
+          </a>
+
+          <button class="button button--secondary contact-card__copy" type="button" data-copy-email="YOUR_EMAIL@example.com">
+            Copy Email
+          </button>
+          <p class="copy-message" data-copy-message aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <p>© <span data-year></span> Mohamed Mohamed. Built with HTML, CSS, and JavaScript.</p>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
